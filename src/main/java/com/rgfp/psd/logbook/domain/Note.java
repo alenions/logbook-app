@@ -23,4 +23,7 @@ public class Note {
     @Column(length=10000)
     private String content;
 
+    public String getSumary(){
+            return content.length()>240 ? this.content.substring(0,240) : this.content;
+    }
 }

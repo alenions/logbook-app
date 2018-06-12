@@ -51,5 +51,4 @@ public class NoteService {
     List<Note> getAllNotes() {
         return allNotes;
     }
-
 }

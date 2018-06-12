@@ -1,5 +1,6 @@
 package com.rgfp.psd.logbook.controller;
 
-public class NoteControllerTest {
+import org.junit.Test;
 
+public class NoteControllerTest {
 }
