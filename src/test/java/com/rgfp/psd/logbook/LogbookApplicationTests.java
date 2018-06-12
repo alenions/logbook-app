@@ -11,14 +11,13 @@ import static org.junit.Assert.assertNotNull;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class LogbookApplicationTests {
+public class LogbookApplicationTests{
 
 	@Autowired
 	private NoteService noteService;
 
 	@Test
-	public void contextLoads() {
+	public void contextLoads(){
 		assertNotNull(noteService);
 	}
-
 }

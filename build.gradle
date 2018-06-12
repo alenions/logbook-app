@@ -44,6 +44,7 @@ jacocoTestReport {
 	executionData = files("$buildDir/jacoco/test.exec")
 }
 
+/*
 sonarqube {
 	properties {
 		property "sonar.host.url", "https://sonarcloud.io"
@@ -56,4 +57,4 @@ sonarqube {
 		property "sonar.java.coveragePlugin", "jacoco"
 		property "sonar.jacoco.reportPath", "$buildDir/jacoco/test.exec"
 	}
-}
+}*/
